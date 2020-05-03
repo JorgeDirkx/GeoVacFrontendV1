@@ -1,0 +1,59 @@
+body{
+    background: url(https://www.msf.org.za/sites/default/files/msf107473_drc_child_sufferingfrom_malaria.jpg);
+    background-size: cover; 
+  }
+
+.container {
+  position: relative;
+  max-width: 1250px; 
+}
+
+.container .content {
+  font-size: larger;
+  position: absolute; 
+  top: 0; 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 20px; 
+}
+
+input,select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+button{
+  width: 100%;
+  background-color: brown;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 2px;
+}
+
+
+form{
+  background-color: white;
+  border-radius: 5px;
+    padding: 20px;
+    width: 20vw;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+label{
+  color: brown;
+}
+
+  
+ 
